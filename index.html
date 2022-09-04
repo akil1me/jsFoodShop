@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./bootstrap/bootstrap.min.css">
+  <title>JS list</title>
+</head>
+
+<body class="bg-success bg-opacity-75">
+  <main>
+    <section class="hero mt-5">
+      <div class="hero__container container">
+        <div class="hero__inner w-75 mx-auto bg-success bg-gradient  py-4 rounded-2 shadow">
+          <h1 class="hero__title fs-1 text-center text-white mb-4">Bzorlik qiling</h1>
+          <form class="hero__form row justify-content-center" autocomplete="off">
+            <div class="col col-auto p-0  mb-3 mb-lg-0">
+              <label class="visually-hidden" for="user-shop"></label>
+              <input class="hero__input form-control mb-1" name="user-shop" id="user-shop" type="text"
+                placeholder="maxsulot kiriting" required>
+              <div class="d-flex align-items-center text-center">
+                <input class="hero__input-chek" type="checkbox"> <span class="text-white ms-2">Qatorni teskari
+                  qilsih</span>
+              </div>
+            </div>
+
+            <div class="col col-auto">
+              <button class="btn btn-primary" type="submit">Yubirsh</button>
+              <button class="btn btn-primary" type="reset">Uchirish</button>
+            </div>
+          </form>
+
+          <div class="hero__result w-100 d-flex text-white mt-3">
+            <ol class="hero__list mx-auto"></ol>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <script src=" ./js/script.js">
+  </script>
+</body>
+
+</html>
